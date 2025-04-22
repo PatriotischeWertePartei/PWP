@@ -3,23 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-  <title>Patriotische Werte Partei (PWP) – Offizielle Website</title>
-  <meta name="description" content="Offizielle Website der Patriotischen Werte Partei (PWP) – Für ein starkes, freies und gerechtes Deutschland. Erfahre mehr über unsere Werte, Themen und unser junges Team." />
-  <meta name="keywords" content="Patriotische Werte Partei, PWP, Politik, Deutschland, konservativ, Migration, Wirtschaft, Volksabstimmungen, Bildung, Partei, Schülerpartei, junge Partei" />
-  <meta name="author" content="PWP - Patriotische Werte Partei" />
-  <meta name="robots" content="index, follow" />
-
-  <meta property="og:title" content="Patriotische Werte Partei (PWP)" />
-  <meta property="og:description" content="Unsere Mission, unsere Themen, unser Team – auf der offiziellen Website der Patriotischen Werte Partei." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://dein-github-name.github.io/" />
-  <!-- <meta property="og:image" content="https://dein-github-name.github.io/logo.png" /> -->
-
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Patriotische Werte Partei (PWP)" />
-  <meta name="twitter:description" content="Offizielle Website der Patriotischen Werte Partei – Für ein starkes, sicheres und gerechtes Deutschland." />
-
+  <title>Patriotische Werte Partei (PWP)</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -92,7 +76,21 @@
       margin-top: 2em;
     }
 
-    @media (max-width: 600px) {
+    .team-member {
+      margin-bottom: 1.5em;
+    }
+
+    .team-member h3 {
+      color: #E65100;
+      font-size: 1.6em;
+    }
+
+    .team-member p {
+      font-size: 1.1em;
+    }
+
+    /* Mobile styles */
+    @media (max-width: 767px) {
       header h1 {
         font-size: 1.6em;
       }
@@ -119,19 +117,18 @@
       h2 {
         font-size: 1.4em;
       }
-    }
 
-    .team-member {
-      margin-bottom: 1.5em;
-    }
+      .team-member h3 {
+        font-size: 1.2em;
+      }
 
-    .team-member h3 {
-      color: #E65100;
-      font-size: 1.6em;
-    }
+      .team-member p {
+        font-size: 1em;
+      }
 
-    .team-member p {
-      font-size: 1.1em;
+      ul li {
+        margin-bottom: 0.8em;
+      }
     }
   </style>
 </head>
@@ -163,7 +160,7 @@
       <li><strong>Volksabstimmungen:</strong> Bürger sollen bei grundlegenden politischen Weichenstellungen direkt mitentscheiden – durch bundesweite Volksentscheide.</li>
       <li><strong>Friedenspolitik:</strong> Deutschland soll sich aktiv für Diplomatie und friedliche Konfliktlösungen einsetzen.</li>
       <li><strong>Reform der EU:</strong> Weniger Bürokratie aus Brüssel, mehr demokratische Kontrolle durch die Bürger. Die EU muss wieder ein Bündnis für Zusammenarbeit statt Bevormundung sein.</li>
-      <li><strong>Bildung neu denken:</strong> Überarbeitung des Schulsystems, Einführung von Leistungs- und Grundkursen, moderne Schulen. Lehrermangel aktiv bekämpfen.</li>
+      <li><strong>Bildung neu denken:</strong> Überarbeitung des Schulsystems, moderne Schulen, Lehrermangel aktiv bekämpfen.</li>
       <li><strong>Starke Infrastruktur:</strong> Wir fordern massive Investitionen in Straßen, Brücken und besonders in marode Schulgebäude.</li>
       <li><strong>Digitale Rückständigkeit beenden:</strong> Glasfaserausbau, digitale Verwaltung, moderne digitale Bildung.</li>
       <li><strong>Sichere Heimat:</strong> Entschlossenes Vorgehen gegen Clankriminalität, Extremismus und Gewalt. Polizei und Justiz stärken.</li>
@@ -176,7 +173,7 @@
     <h2>Unser Team</h2>
     <div class="team-member">
       <h3>Constantin Horn – Vorsitzender und Spitzenkandidat</h3>
-      <p>16 Jahre alt, Schüler der ecolea Rostock mit Schwerpunkt Wirtschaft, Migration und Sozialpolitik. Politisch geprägt durch ein engagiertes Elternhaus, will er für Leistungsgerechtigkeit und ein sicheres Deutschland kämpfen. Constantin hat sich für die Politik entschieden, weil keine andere Partei seinen politischen Vorstellungen entspricht.</p>
+      <p>16 Jahre alt, Schüler der ecolea Rostock mit Schwerpunkt Wirtschaft, Migration und Sozialpolitik. Politisch geprägt durch ein engagiertes Elternhaus, will er für Leistungsgerechtigkeit und ein sicheres Deutschland kämpfen. Constantin hat sich für die Politik entschieden, weil keine andere Partei seinen politischen Vorstellungen entspricht. Er ist überzeugt davon, dass ein leistungsorientiertes System Wohlstand für alle schaffen kann – besonders für die Mittelschicht.</p>
     </div>
     <div class="team-member">
       <h3>Bruno Lage – Stellvertretender Vorsitzender</h3>
@@ -184,17 +181,18 @@
     </div>
     <div class="team-member">
       <h3>Henning Schimanke – Generalsekretär & Beauftragter für Infrastruktur und Soziales</h3>
-      <p>15 Jahre alt, setzt sich für eine faire Sozialpolitik ein und will insbesondere den Verkehr in MV modernisieren und sicherer machen. Henning fordert eine verstärkte Investition in die Infrastruktur, um Staus und unnötige Verzögerungen zu vermeiden.</p>
+      <p>15 Jahre alt, setzt sich für eine faire Sozialpolitik ein und will insbesondere den Verkehr in MV modernisieren und sicherer machen. Henning fordert eine verstärkte Investition in die Infrastruktur und eine faire Bezahlung mit gerechten Aufstiegsmöglichkeiten.</p>
     </div>
     <div class="team-member">
       <h3>Christoph Krause – Außen-, Bildungs- und Finanzpolitik</h3>
-      <p>15 Jahre alt, überzeugt von einem starken Deutschland mit klarer Kante in der Außenpolitik und nachhaltiger Bildungspolitik für kommende Generationen. Christoph setzt sich dafür ein, dass Deutschland in der Weltgemeinschaft wieder eine führende Rolle spielt.</p>
+      <p>15 Jahre alt, überzeugt von einem starken Deutschland mit klarer Kante in der Außenpolitik und nachhaltiger Bildungspolitik für kommende Generationen. Christoph setzt sich für solide Finanzen und gerechte Bildung für alle ein.</p>
     </div>
   </section>
 
   <section id="grund">
     <h2>Warum wir eine Partei gegründet haben</h2>
     <p>Wir – eine Gruppe engagierter Schüler – haben uns entschieden, eine eigene Partei zu gründen, weil keine bestehende Partei unsere Überzeugungen ausreichend vertritt. Unsere Entscheidung basiert auf persönlicher Betroffenheit und täglichen Erfahrungen: marode Infrastruktur, überlastete Behörden, Sicherheitsprobleme, Migration ohne klare Regeln, Rentner, die kaum über die Runden kommen – während andere ohne Gegenleistung von unserem System profitieren.</p>
+    <p>Wir wollen, dass Politik wieder für das eigene Volk gemacht wird. Deutschland zuerst – für eine sichere, gerechte Zukunft. Wir glauben, wer viel leistet, soll viel verdienen dürfen. Wohlstand muss auch für die Mittelschicht erreichbar sein. Gleichzeitig müssen diejenigen, die das System ausnutzen, klare Konsequenzen erfahren – egal, woher sie kommen.</p>
   </section>
 
   <section id="kontakt">
