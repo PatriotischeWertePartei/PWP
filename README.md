@@ -76,21 +76,7 @@
       margin-top: 2em;
     }
 
-    .team-member {
-      margin-bottom: 1.5em;
-    }
-
-    .team-member h3 {
-      color: #E65100;
-      font-size: 1.6em;
-    }
-
-    .team-member p {
-      font-size: 1.1em;
-    }
-
-    /* Mobile styles */
-    @media (max-width: 767px) {
+    @media (max-width: 600px) {
       header h1 {
         font-size: 1.6em;
       }
@@ -117,18 +103,19 @@
       h2 {
         font-size: 1.4em;
       }
+    }
 
-      .team-member h3 {
-        font-size: 1.2em;
-      }
+    .team-member {
+      margin-bottom: 1.5em;
+    }
 
-      .team-member p {
-        font-size: 1em;
-      }
+    .team-member h3 {
+      color: #E65100;
+      font-size: 1.6em;
+    }
 
-      ul li {
-        margin-bottom: 0.8em;
-      }
+    .team-member p {
+      font-size: 1.1em;
     }
   </style>
 </head>
@@ -156,16 +143,16 @@
     <h2>Unsere Themen</h2>
     <ul>
       <li><strong>Starke Wirtschaft:</strong> Wir setzen auf marktorientierte Politik, Bürokratieabbau, Förderung des Mittelstands und Unterstützung von Innovation und Unternehmertum. Deutschland muss wieder ein attraktiver Wirtschaftsstandort werden.</li>
-      <li><strong>Klar geregelte Migration:</strong> Migration muss kontrolliert und geordnet sein. Wir fordern eine deutlich strengere Migrationspolitik, die illegale Einwanderung unterbindet, Zuwanderung begrenzt und Integration nach klaren Regeln gestaltet.</li>
-      <li><strong>Volksabstimmungen:</strong> Bürger sollen bei grundlegenden politischen Weichenstellungen direkt mitentscheiden – durch bundesweite Volksentscheide.</li>
-      <li><strong>Friedenspolitik:</strong> Deutschland soll sich aktiv für Diplomatie und friedliche Konfliktlösungen einsetzen.</li>
-      <li><strong>Reform der EU:</strong> Weniger Bürokratie aus Brüssel, mehr demokratische Kontrolle durch die Bürger. Die EU muss wieder ein Bündnis für Zusammenarbeit statt Bevormundung sein.</li>
-      <li><strong>Bildung neu denken:</strong> Überarbeitung des Schulsystems, moderne Schulen, Lehrermangel aktiv bekämpfen.</li>
-      <li><strong>Starke Infrastruktur:</strong> Wir fordern massive Investitionen in Straßen, Brücken und besonders in marode Schulgebäude.</li>
-      <li><strong>Digitale Rückständigkeit beenden:</strong> Glasfaserausbau, digitale Verwaltung, moderne digitale Bildung.</li>
-      <li><strong>Sichere Heimat:</strong> Entschlossenes Vorgehen gegen Clankriminalität, Extremismus und Gewalt. Polizei und Justiz stärken.</li>
-      <li><strong>Gesunde Sozialsysteme:</strong> Reform von Rente (mit Aktienrente nach schwedischem Modell), Pflege und Gesundheit – fair und nachhaltig.</li>
-      <li><strong>Sprach- & Kulturpolitik:</strong> Stärkung der deutschen Sprache und Kultur, Ablehnung von Genderzwang.</li>
+      <li><strong>Klar geregelte Migration:</strong> Migration muss kontrolliert und geordnet sein. Wir fordern eine deutlich strengere Migrationspolitik, die illegale Einwanderung unterbindet, Zuwanderung begrenzt und Integration nach klaren Regeln gestaltet. Kommunen dürfen nicht weiter überfordert werden.</li>
+      <li><strong>Volksabstimmungen:</strong> Bürgerinnen und Bürger sollen bei grundlegenden politischen Weichenstellungen direkt mitentscheiden – durch bundesweite Volksentscheide, wie in der Schweiz.</li>
+      <li><strong>Friedenspolitik:</strong> Deutschland soll sich aktiv für Diplomatie und friedliche Konfliktlösungen einsetzen. Wir wollen Verhandlungen im Ukraine-Konflikt und tragfähige Partnerschaften mit allen großen Wirtschaftsnationen – auch mit Russland.</li>
+      <li><strong>Reform der EU:</strong> Wir stehen zur EU, fordern aber eine Rückbesinnung auf nationale Souveränität. Weniger Bürokratie aus Brüssel, mehr demokratische Kontrolle durch die Bürger. Die EU muss wieder ein Bündnis für Zusammenarbeit statt Bevormundung sein.</li>
+      <li><strong>Bildung neu denken:</strong> Frühzeitige Wahlfreiheit für Schülerinnen und Schüler – schon ab der Mittelstufe. Einführung von Leistungs- und Grundkursen in Hauptfächern mit zwei verpflichtenden Leistungskursen. Mehr Fokus, bessere Förderung, moderne Schulen. Lehrermangel muss aktiv bekämpft werden.</li>
+      <li><strong>Starke Infrastruktur:</strong> Wir fordern massive Investitionen in den Erhalt und Ausbau von Infrastruktur – von Straßen und Brücken bis hin zu Bahnnetzen. Besonders marode Schulgebäude müssen saniert werden. Die Grundlage für eine moderne Gesellschaft ist ein funktionierendes Fundament.</li>
+      <li><strong>Digitale Rückständigkeit beenden:</strong> Deutschland hinkt beim Glasfaserausbau, Mobilfunk und digitaler Verwaltung hinterher. Wir setzen uns für eine digitale Offensive ein: flächendeckendes schnelles Internet, digitale Schulen, moderne Verwaltung ohne Papierkrieg.</li>
+      <li><strong>Sichere Heimat:</strong> Für uns steht die Sicherheit der Bürger an erster Stelle. Wir fordern entschlossenes Vorgehen gegen Clankriminalität, Extremismus und Gewalt gegen Polizei, Feuerwehr und Rettungskräfte. Der Staat muss wieder handlungsfähig sein – in jeder Straße, in jedem Stadtteil.</li>
+      <li><strong>Gesunde Sozialsysteme:</strong> Unsere Sozialsysteme stehen durch Überalterung und ungeregelte Migration unter Druck. Wir setzen uns für eine nachhaltige Reform von Rente, Pflege und Gesundheit ein – fair, solide und zukunftsfähig. Besonders bei der Rente wollen wir langfristige Sicherheit durch eine Aktienrente nach schwedischem Vorbild schaffen: staatlich organisiert, aber renditestark und generationsgerecht.</li>
+      <li><strong>Sprach- & Kulturpolitik:</strong> Wir wollen die deutsche Sprache und Kultur stärken, klare Sprache fördern und Genderzwang in Verwaltung und Bildungseinrichtungen ablehnen.</li>
     </ul>
   </section>
 
@@ -173,19 +160,19 @@
     <h2>Unser Team</h2>
     <div class="team-member">
       <h3>Constantin Horn – Vorsitzender und Spitzenkandidat</h3>
-      <p>16 Jahre alt, Schüler der ecolea Rostock mit Schwerpunkt Wirtschaft, Migration und Sozialpolitik. Politisch geprägt durch ein engagiertes Elternhaus, will er für Leistungsgerechtigkeit und ein sicheres Deutschland kämpfen. Constantin hat sich für die Politik entschieden, weil keine andere Partei seinen politischen Vorstellungen entspricht. Er ist überzeugt davon, dass ein leistungsorientiertes System Wohlstand für alle schaffen kann – besonders für die Mittelschicht.</p>
+      <p>16 Jahre alt, Schüler der ecolea Rostock mit Schwerpunkt Wirtschaft, Migration und Sozialpolitik. Politisch geprägt durch ein engagiertes Elternhaus, will er für Leistungsgerechtigkeit und ein sicheres Deutschland kämpfen. Constantin hat sich für die Politik entschieden, weil keine andere Partei seinen politischen Vorstellungen entspricht. Er ist überzeugt davon, dass ein leistungsorientiertes System Wohlstand für alle schaffen kann – besonders für die Mittelschicht. Dabei setzt er sich für eine verantwortungsvolle und gezielte Migration ein, bei der Fachkräfte willkommen sind, während Missbrauch des Sozialsystems und Straftäter konsequent abgeschoben werden. Constantin steht für eine Politik der klaren Kante, bei der das Wohl des eigenen Volkes immer an erster Stelle steht.</p>
     </div>
     <div class="team-member">
       <h3>Bruno Lage – Stellvertretender Vorsitzender</h3>
-      <p>15 Jahre alt, Innenpolitik und Migrationsfragen sind seine Kernthemen. Er fordert klare Regeln für Integration und die konsequente Abschiebung von Straftätern. Bruno ist der Meinung, dass die Polizei mehr Rechte und Respekt erhalten sollte, um wirksam gegen Kriminalität und Extremismus vorgehen zu können.</p>
+      <p>15 Jahre alt, Innenpolitik und Migrationsfragen sind seine Kernthemen. Er fordert klare Regeln für Integration und die konsequente Abschiebung von Straftätern. Bruno ist der Meinung, dass die Polizei mehr Rechte und Respekt erhalten sollte, um wirksam gegen Kriminalität und Extremismus vorgehen zu können. Er setzt sich für eine strengere Überprüfung von Migranten und eine Reduzierung von Sozialleistungen für diejenigen ein, die sich nicht an die Regeln halten. Bruno glaubt an ein starkes und sicheres Deutschland, in dem jeder für seinen Erfolg Verantwortung trägt und diejenigen, die das System missbrauchen, klare Konsequenzen erfahren.</p>
     </div>
     <div class="team-member">
       <h3>Henning Schimanke – Generalsekretär & Beauftragter für Infrastruktur und Soziales</h3>
-      <p>15 Jahre alt, setzt sich für eine faire Sozialpolitik ein und will insbesondere den Verkehr in MV modernisieren und sicherer machen. Henning fordert eine verstärkte Investition in die Infrastruktur und eine faire Bezahlung mit gerechten Aufstiegsmöglichkeiten.</p>
+      <p>15 Jahre alt, setzt sich für eine faire Sozialpolitik ein und will insbesondere den Verkehr in MV modernisieren und sicherer machen. Henning fordert eine verstärkte Investition in die Infrastruktur, um Staus und unnötige Verzögerungen zu vermeiden. Dabei setzt er auf einen schrittweisen Ausbau und die Fertigstellung von Projekten, bevor neue begonnen werden. Außerdem spricht er sich für eine faire Bezahlung und gerechte Aufstiegsmöglichkeiten aus, damit jeder, der hart arbeitet, eine angemessene Belohnung erhält. Henning setzt sich für eine klare Trennung zwischen denen, die ihren Beitrag leisten und denen, die das System ausnutzen, und fordert eine schnelle Lösung für soziale Missstände, wie die marode Infrastruktur und die unzureichende Modernisierung öffentlicher Gebäude.</p>
     </div>
     <div class="team-member">
       <h3>Christoph Krause – Außen-, Bildungs- und Finanzpolitik</h3>
-      <p>15 Jahre alt, überzeugt von einem starken Deutschland mit klarer Kante in der Außenpolitik und nachhaltiger Bildungspolitik für kommende Generationen. Christoph setzt sich für solide Finanzen und gerechte Bildung für alle ein.</p>
+      <p>15 Jahre alt, überzeugt von einem starken Deutschland mit klarer Kante in der Außenpolitik und nachhaltiger Bildungspolitik für kommende Generationen. Christoph setzt sich dafür ein, dass Deutschland in der Weltgemeinschaft wieder eine führende Rolle spielt und dass die Außenpolitik im besten Interesse des Landes geführt wird. Er fordert eine Reform des Bildungssystems, das allen Kindern und Jugendlichen unabhängig von ihrer Herkunft eine faire Chance auf eine gute Ausbildung gibt. Außerdem spricht er sich für eine solide Finanzpolitik aus, die langfristig eine starke und stabile Wirtschaft sichert.</p>
     </div>
   </section>
 
